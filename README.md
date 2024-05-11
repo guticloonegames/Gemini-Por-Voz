@@ -8,11 +8,10 @@
 
 * **Faça perguntas ao Gemini:** Use sua voz para fazer perguntas ao Gemini e obter respostas precisas e relevantes.
 * **Converse com o Gemini:** Tenha uma conversa natural com o Gemini, como se estivesse falando com um amigo ou assistente virtual.
-* **Controle o Gemini:** Use comandos de voz para controlar o Gemini, como iniciar tarefas, definir lembretes e alterar configurações.
 
 ### Requisitos
 
-* **Python 3.x:** Este projeto requer Python 3.x ou superior.
+* **Python 3.10:** Este projeto requer Python 3.10 ou superior.
 * **Biblioteca de Reconhecimento de Voz:** Você precisará instalar uma biblioteca de reconhecimento de voz compatível com Python, como SpeechRecognition ou Vosk.
 * **Chave API do Gemini:** Para usar a API do Gemini, você precisará de uma chave API válida.
 
@@ -21,7 +20,7 @@
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/gemini-por-voz.git
+git clone https://github.com/guticloonegames/Gemini-Por-Voz.git
 ```
 
 2. Instale as dependências:
@@ -36,10 +35,10 @@ Siga as instruções de instalação da biblioteca de reconhecimento de voz esco
 
 4. Configure a chave API do Gemini:
 
-Crie um arquivo chamado `config.py` e defina a variável `GEMINI_API_KEY` com sua chave API do Gemini.
+Abra o arquivo `app.py` e defina a variável `API_KEY` com sua chave API do Gemini.
 
 ```python
-GEMINI_API_KEY = "sua-chave-api-do-gemini"
+API_KEY = "sua-chave-api-do-gemini"
 ```
 
 ### Uso
@@ -47,7 +46,7 @@ GEMINI_API_KEY = "sua-chave-api-do-gemini"
 1. Execute o script principal:
 
 ```bash
-python main.py
+python app.py
 ```
 
 2. Comece a conversar com o Gemini!
@@ -60,14 +59,7 @@ Use sua voz para fazer perguntas ao Gemini, dar comandos ou simplesmente convers
 * A qualidade da experiência de voz dependerá da qualidade do seu microfone e da biblioteca de reconhecimento de voz escolhida.
 * Certifique-se de usar uma chave API do Gemini válida para acessar a API.
 
-### Contribuições
-
-Se você deseja contribuir para este projeto, sinta-se à vontade para enviar pull requests.
-
 ### Licença
 
 Este projeto está licenciado sob a licença MIT.
 
-### Suporte
-
-Se você tiver dúvidas ou problemas, por favor, envie um problema no GitHub.
